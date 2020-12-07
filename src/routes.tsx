@@ -3,13 +3,13 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Tour from './pages/Tour';
-import Colors from './pages/Colors';
+import Todo from './pages/Todo';
 
 const Routes: React.FC = () => (
     <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/tour" component={Tour} />
-        <Route path="/colors" component={Colors} />
+        <Route path="/todo" component={Todo} />
     </Switch>
 )
 

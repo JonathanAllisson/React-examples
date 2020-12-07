@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         </Link>
       </div>
       <div className="box">
-        <Link to="colors">
+        <Link to="todo">
           <img />
         </Link>
       </div>
